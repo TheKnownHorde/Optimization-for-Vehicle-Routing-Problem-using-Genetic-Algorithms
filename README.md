@@ -7,9 +7,8 @@ This project focuses on solving the Vehicle Routing Problem (VRP) using Genetic 
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Genetic Algorithm Approach](#genetic-algorithm-approach)
-- [Results](#results)
+
 
 ## Introduction
 The Vehicle Routing Problem is a critical issue in logistics and supply chain management. Optimizing delivery routes can lead to significant cost savings and improved service levels. In this project, we leverage Genetic Algorithms to find near-optimal solutions to the VRP by simulating the process of natural selection.
@@ -20,21 +19,13 @@ To run this project locally, you'll need Python 3.x and the following Python lib
 - `numpy`
 - `matplotlib`
 - `deap`
+  
+## Usage
 
-You can install the required libraries using:
-
-```bash
-pip install numpy matplotlib deap
-
-Usage
-Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/vehicle-routing-genetic-algorithm.git
 cd vehicle-routing-genetic-algorithm
 
-Genetic Algorithm Approach
+## Genetic Algorithm Approach
 This project employs the following steps to solve the VRP:
 
 Population Initialization: Individuals represent a permutation of location indices, defining the order in which vehicles will visit the locations.
